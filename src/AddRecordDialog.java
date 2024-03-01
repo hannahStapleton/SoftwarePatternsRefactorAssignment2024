@@ -129,7 +129,7 @@ public class AddRecordDialog extends JDialog implements ActionListener {
 			ppsField.setBackground(new Color(255, 150, 150));
 			valid = false;
 		}// end if
-		if (this.parent.correctPps(this.ppsField.getText().trim(), -1)) {
+		if (this.parent.validatePps(this.ppsField.getText().trim(), -1)) {
 			ppsField.setBackground(new Color(255, 150, 150));
 			valid = false;
 		}// end if
